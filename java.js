@@ -5,6 +5,9 @@ let next = prompt("Do you enjoy being a " + message + "?");
 if(next=="Yes"){
     alert(name + " is a " + message + " and enjoys it. ")
 }
+else if(next=="yes"){
+    alert(name + " is a " + message + " and enjoys it. ")
+}
 else if(next == "No"){
     alert(name + " is a " + message + " and doesn't enjoy it sadly. ")
 }
