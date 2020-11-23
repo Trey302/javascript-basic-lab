@@ -2,17 +2,17 @@
 const name = prompt("Hello, what is your name?");
 const message = prompt( "Hi, " + name + " choose any number from 1-20. ");
 if (message < 5) {
-    console.log("Tiny")
+    alert("Tiny")
 }
 else if (message < 10) {
-    console.log("Small")
+    alert("Small")
 }
 else if (message < 15) {
-    console.log("Medium")
+    alert("Medium")
 }
 else if (message < 20) {
-    console.log("Large")
+    alert("Large")
 }
 else if (message = 20) {
-    console.log("Huge")
+    alert("Huge")
 }
